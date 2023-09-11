@@ -2,7 +2,7 @@
     "name": "paalg/csv",
     "description": "A little library handling CSV files",
     "type": "library",
-    "version": "0.1",
+    "license": "apache-2.0",
     "autoload": {
         "psr-4": {
             "Paalg\\Csv\\": "src/"
