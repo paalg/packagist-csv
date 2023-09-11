@@ -3,12 +3,18 @@
     "description": "A little library handling CSV files",
     "type": "library",
     "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "Pål Gammelsæter",
+            "role": "Developer"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Paalg\\Csv\\": "src/"
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "scripts":{
         "test": "./vendor/bin/phpunit ./tests"
     },
