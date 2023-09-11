@@ -1,7 +1,10 @@
 # Csv library
 This library is for parsing an iterating through lines in a CSV file.
 
-## Example
+## Versions
+* v0.1 The first version published 
+
+## Usage
 ```php
 // Load standard CSV file with headers and "," as field separator
 $csv = new Csv('import.csv');
@@ -46,7 +49,7 @@ $csv = new Csv('data.csv');
 foreach ($csv as $row) {    
     print_r($row);
     foreach ($row as $fieldName => $value) {
-        // do things
+        // do things with the fields in current row
     }
 }
 ```
@@ -61,3 +64,6 @@ Array
     [Price] => 4900.00
 )
 ```
+## Unit testing
+The library has been thoroughly tested with unit tests (phpunit). You 
+can run the tests with command `composer test`.
